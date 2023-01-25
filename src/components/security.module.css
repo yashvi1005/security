@@ -1,0 +1,83 @@
+
+
+.main{
+    padding: 20px;
+    width: 1100px;
+}
+.acco{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 160px; */
+}
+
+.main_acco{
+    border-top: solid 1px #d7d4d4;
+    border-right: solid 1px #d7d4d4;
+    border-left: solid 1px #d7d4d4;
+    border-bottom: none !important;
+    
+}
+
+.otp_box{
+    height: 45px;
+    width: 45px;
+    border-radius:5px;
+    font-size: 20px;
+    text-align: center ;
+    border: solid 1px #d7d4d4;
+    color: #00abff;
+}
+.new_password{
+    margin-top: 20px;
+}
+
+.otp_box:hover{
+    border-color: #00abff
+}
+.new_password:hover{
+    border-color: none !important;
+}
+
+.otp_box:focus-within, .new_password:focus-within{
+    outline: none !important;
+}
+.otp_box:focus, .new_password:focus{
+    border: solid 1px #00abff;
+}
+.otp_box:focus-visible , .new_password:focus-visible{
+    border-color: #00abff !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.left_box{
+    float: left;
+    margin-right: 20px;
+    height:600px;
+    width: 450px;
+    border: solid 1px none;
+}
+
+.right_box{
+    float: left;
+    margin-right: 100px;
+    height:600px;
+    width: 450px;
+    border: solid 1px none;
+}
+
+.condition{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    color: #646f79;
+}
+
+.custom_passwd{
+    color:"#ffffff"
+}
